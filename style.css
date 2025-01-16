@@ -1,0 +1,189 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #6f393c, #8a8181);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px;
+  height: 300px;
+  max-width: 400px;
+  margin: 0 auto;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: #292828;
+}
+
+.message {
+  font-size: 1.2rem;
+  margin-top: 30px;
+  transition: opacity 0.3s ease;
+}
+
+.heart img {
+  height: 140px;
+  width: 90px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.heart img:hover {
+  transform: scale(1.2);
+}
+
+@keyframes floatUp {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100px) scale(0.5);
+  }
+}
+
+.floating-heart {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  background: rgba(244, 2, 42, 0.96);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  animation: floatUp 2s ease-out forwards;
+}
+
+.background-image {
+  position: absolute;
+  width: 110vw;
+  height: 75vh;
+  top: 190px;
+  left: 580px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image2 {
+  position: absolute;
+  width: 90vw;
+  height: 75vh;
+  top: 15px;
+  left: -580px;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image3 {
+  position: absolute;
+  width: 90vw;
+  height: 25vh;
+  top: 28px;
+  left: -190px;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image4 {
+  position: absolute;
+  width: 100vw;
+  height: 48vh;
+  top: 50px;
+  left: 330px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image5 {
+  position: absolute;
+  width:75vw;
+  height: 22vh;
+  top: 25px;
+  left: 260px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image6 {
+  position: absolute;
+  width:60vw;
+  height: 36vh;
+  top: 520px;
+  left: 15px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image7 {
+  position: absolute;
+  width:60vw;
+  height: 28vh;
+  top: 270px;
+  left: 15px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image8 {
+  position: absolute;
+  width:80vw;
+  height: 35vh;
+  top: 500px;
+  left: 500px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image9 {
+  position: absolute;
+  width:60vw;
+  height: 18vh;
+  top: 20px;
+  left: 925px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+.background-image10 {
+  position: absolute;
+  width:60vw;
+  height: 20vh;
+  top: 650px;
+  left: -330px;
+  bottom: 0;
+  object-fit:contain;
+  z-index: -2;
+}
+
+
+
+
